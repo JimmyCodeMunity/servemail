@@ -38,7 +38,7 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <h2 className="text-purple-400 text-3xl font-bold">PaxMail</h2>
+                  <h2 className="text-purple-400 text-3xl font-bold">Paxender</h2>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
