@@ -21,7 +21,7 @@ function Reminder() {
         }
         try {
             setIsLoading(true)
-            const response = await axios.post('https://anonimous-mailserver.vercel.app/sendreminder',{email:receiverEmail});
+            const response = await axios.post('https://persmailer.vercel.app/sendreminder',{email:receiverEmail});
             //toast.success(`Save ${response.data.receiver} successfully`);
             setIsLoading(false);
             Swal.fire({
