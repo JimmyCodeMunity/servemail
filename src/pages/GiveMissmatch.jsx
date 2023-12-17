@@ -21,7 +21,7 @@ function GiveMissmatch() {
         }
         try {
             setIsLoading(true)
-            const response = await axios.post('https://anonimous-mailserver.vercel.app/sendgivemissmatch',{email:receiverEmail});
+            const response = await axios.post('https://persmailer.vercel.app/sendgivemissmatch',{email:receiverEmail});
             //toast.success(`Save ${response.data.receiver} successfully`);
             setIsLoading(false);
             Swal.fire({
