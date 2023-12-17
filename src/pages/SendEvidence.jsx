@@ -21,7 +21,7 @@ function SendEvidence() {
         }
         try {
             setIsLoading(true)
-            const response = await axios.post('https://anonimous-mailserver.vercel.app/sendevidence',{email:receiverEmail});
+            const response = await axios.post('https://persmailer.vercel.app/sendevidence',{email:receiverEmail});
             //toast.success(`Save ${response.data.receiver} successfully`);
             setIsLoading(false);
             Swal.fire({
