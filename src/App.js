@@ -25,7 +25,7 @@ const App = () => {
 
       <div className="container mx-auto p-2 h-full">
         <Routes>
-          <Route index element={<HomePag />}></Route>
+          <Route index element={<HomePage />}></Route>
           <Route path='/create' element={<CreatePage />}></Route>
           <Route path='/edit/:id' element={<EditPage />}></Route>
           <Route path='/shop' element={<Shop />}></Route>
